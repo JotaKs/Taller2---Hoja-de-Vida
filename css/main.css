@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box; 
+    margin: 0px;
+}
+
+body{
+    font-family: Calibri;
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+}
+
+/* Header */
+header{
+    background-color: rgb(24, 69, 190);;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header #logo{
+    padding: 20px 25px;
+    font-size: 16px;
+    align-items: center;
+}
+
+header nav{ 
+    padding: 13px 120px; 
+    font-size: 13px;
+}
+
+header nav a {
+    margin: 22px;
+    font-weight: lighter;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+}
+
+header a:hover{
+    color: blue;
+}
