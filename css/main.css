@@ -118,9 +118,40 @@ section div h2:nth-child(4){
     height: 100px;
     width: 90%;
     border: solid 1px;
-    border-radius: .5em;
+    border-radius: 30em;
+    color: grey;
+    margin: 8px;
 }
 
 #descripcion{
-    
+    display: flex;
+    height: 100px;
+    display: flex; 
+    margin: 37px 38%;
 }
+
+/* Footer */
+footer div{
+    padding: 0px 275px; 
+    font-size: 13px;
+    display: flex;
+    margin: 0px 300px;
+    color: grey;
+}
+
+.container4{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    align-items: flex-end;
+    margin: 0px 317px;
+}
+
+footer div img{
+    width: 17px;
+    height: 17px;
+    margin: 2px;
+}
+
+
+
