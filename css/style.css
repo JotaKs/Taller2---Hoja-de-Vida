@@ -155,16 +155,64 @@ section .containerdp1{
     border: 0px;
 }
 
+/*Pasatiempo*/
 
+#fotop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 1px;
+    height: 120px;
+    width: 135px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px 45px;
+    font-size: 13px;
+}
 
+#encabezadop{
+    font-size: 50px;
+    font-weight: normal;
+    position: relative;
+    left: 20px;
+}
 
+#h2p {
+    width: 225px;
+    height: 26px;
+    font-size: 12px;
+    border: solid 1px;
+    padding: 5px;
+    font-weight: normal;
+    margin: 9px;
+    text-indent: 5em;
+}
 
+#h2p:first-child {
+    border: 0px;
+}
 
+.containerp1{
+    padding: 10px 37%;
+    height: 320px;
+    width: 100%;
+    color: grey;
+}
 
+#detallep{
+    border: solid 1px;
+    height: 2.5px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 640px;
+}
+
+.containerp3{
+    padding: 15px 3px;
+}
 
 /*Segunda Seccion - Para todos*/
-
-
 
 #descripcion{
     display: flex;
@@ -203,7 +251,28 @@ section .containerdp1{
     height: 196px;
 }
 
+/*pasatiempo*/
 
+.containerp4{
+    padding: 40px;
+    height: 196px;
+}
+
+.containerp5{
+    height: 80px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
+    color: grey;
+    margin: 40px;
+}
+
+#descripcionp{
+    display: flex;
+    height: 100px;
+    display: flex; 
+    margin: 30px 38%;
+}
 
 /* Footer - Para todos*/
 footer div{ 
