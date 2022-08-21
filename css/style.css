@@ -12,7 +12,7 @@ body{
     margin: auto;
 }
 
-/* Header */
+/* Header Para todos*/
 header{
     background-color: rgb(24, 69, 190);;
 }
@@ -49,17 +49,10 @@ header a:hover{
     color: blue;
 }
 
-/*Primera sección*/
+/*Primera sección - Para todos*/
 section {
     display: flex;
     justify-content: center;
-}
-
-section .container1{
-    height: 300px;
-    width: 235px;
-    margin: 40px;
-    color: grey;
 }
 
 #foto{
@@ -75,14 +68,6 @@ section .container1{
     font-size: 13px;
 }
 
-.container2{
-    height: 90px;
-    width: 135px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-}
-
 #detalle{
     border: solid 1px;
     height: 2.5px;
@@ -90,7 +75,23 @@ section .container1{
     border-radius: 50%;
 }
 
-section div h2 {
+/*datos personales*/
+section .containerdp1{
+    height: 310px;
+    width: 235px;
+    margin: 25px;
+    color: grey;
+}
+
+.containerdp2{
+    height: 90px;
+    width: 135px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+#h2dp {
     font-size: 12px;
     border: solid 1px;
     padding: 5px;
@@ -99,29 +100,71 @@ section div h2 {
     text-indent: 3.5em;
 }
 
-section div h2:first-child {
+#h2dp:first-child {
     border: 0px;
 }
 
-section div h2:nth-child(3){
+#h2dp:nth-child(3){
     border: 0px;
     text-indent: 6em;
 }
 
-section div h2:nth-child(4){
+#h2dp:nth-child(4){
     text-indent: 2.5em;
 }
 
-/*Segunda Seccion*/
+/*contacto*/
 
-.container3{
-    height: 100px;
-    width: 90%;
-    border: solid 1px;
-    border-radius: 30em;
+.containerc1{
+    padding: 10px 10px;
+    height: 320px;
+    width: 30%;
     color: grey;
-    margin: 8px;
+    position: relative;
+    left: 70px;
 }
+
+.containerc2{
+    padding: 0px 45px;
+}
+
+.containerc3{
+    height: 90px;
+    width: 135px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+#encabezado{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#h2c {
+    width: 225px;
+    font-size: 12px;
+    border: solid 1px;
+    padding: 5px;
+    font-weight: normal;
+    margin: 9px;
+    text-indent: 3.5em;
+}
+
+#h2c:first-child {
+    border: 0px;
+}
+
+
+
+
+
+
+
+
+/*Segunda Seccion - Para todos*/
+
+
 
 #descripcion{
     display: flex;
@@ -130,21 +173,57 @@ section div h2:nth-child(4){
     margin: 37px 38%;
 }
 
-/* Footer */
-footer div{
-    padding: 0px 275px; 
-    font-size: 13px;
-    display: flex;
-    margin: 0px 300px;
+/*datospersonales*/
+
+.containerdp3{
+    height: 100px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
     color: grey;
+    margin: 25px;
+}
+.containerdp4{
+    padding: 10px;
+    height: 156px;
+}
+
+/*contacto*/
+.containerc5{
+    height: 100px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
+    color: grey;
+    margin: 40px;
+}
+
+.containerc4{
+    padding: 10px;
+    height: 196px;
+}
+
+
+
+/* Footer - Para todos*/
+footer div{ 
+    font-size: 13px;
+    color: grey;
+ 
 }
 
 .container4{
-    display: flex;
+    position: relative;
+    left: 45%;
+    padding: 5px;
+}
+
+.container5{
     width: 100px;
     height: 30px;
     align-items: flex-end;
-    margin: 0px 317px;
+    position: relative;
+    left: 47%;
 }
 
 footer div img{
@@ -152,6 +231,7 @@ footer div img{
     height: 17px;
     margin: 2px;
 }
+
 
 
 
