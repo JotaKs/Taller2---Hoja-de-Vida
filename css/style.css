@@ -116,7 +116,6 @@ section .containerdp1{
 /*contacto*/
 
 .containerc1{
-    padding: 10px 10px;
     height: 320px;
     width: 30%;
     color: grey;
@@ -212,6 +211,15 @@ section .containerdp1{
     padding: 15px 3px;
 }
 
+/*estudios*/
+.containere3{
+    height: 320px;
+    width: 30%;
+    color: grey;
+    position: relative;
+    left: 40px;
+}
+
 /*Segunda Seccion - Para todos*/
 
 #descripcion{
@@ -229,11 +237,10 @@ section .containerdp1{
     border: solid 1px;
     border-radius: 30em;
     color: grey;
-    margin: 25px;
+    margin: 20px;
 }
 .containerdp4{
-    padding: 10px;
-    height: 156px;
+    height: 122px;
 }
 
 /*contacto*/
@@ -247,15 +254,14 @@ section .containerdp1{
 }
 
 .containerc4{
-    padding: 10px;
-    height: 196px;
+    height: 162px;
 }
 
 /*pasatiempo*/
 
 .containerp4{
     padding: 40px;
-    height: 196px;
+    height: 162px;
 }
 
 .containerp5{
@@ -272,6 +278,27 @@ section .containerdp1{
     height: 100px;
     display: flex; 
     margin: 30px 38%;
+}
+
+/*estudios*/
+.containere1{
+    height: 100px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
+    color: grey;
+    margin: 27px;
+}
+
+.containere2{
+    height: 100px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
+    color: grey;
+    margin: 40px;
+    position: absolute;
+    background-color: white;
 }
 
 /* Footer - Para todos*/
@@ -301,6 +328,17 @@ footer div img{
     margin: 2px;
 }
 
+/*estudios*/
+.containere4{
+    position: absolute;
+    left: 47%;
+    padding: 5px;
+}
+.containere5{
+    position: relative;
+    left: 45%;
+    padding: 5px;
+}
 
 
 
