@@ -75,6 +75,53 @@ section {
     border-radius: 50%;
 }
 
+/*index*/
+#encabezadoi{
+    font-size: 50px;
+    font-weight: normal;
+    position: relative;
+    left: 470px;
+    top: 80px;
+}
+
+.containeri1{
+    height: 320px;
+    width: 100%;
+    color: grey;
+    position: relative;
+    left: 70px;
+    bottom: 15px;
+}
+
+.containeri2{
+    padding: 0px 45px;
+    position: absolute;
+}
+
+.containeri3{
+    width: 30%;
+    color: grey;
+    position: relative;
+    left: 320px;
+    top: 118px;
+}
+
+.containeri4{
+    width: 30%;
+    color: grey;
+    position: relative;
+    left: 571px;
+    bottom: 21px;
+}
+
+.containeri5{
+    width: 30%;
+    color: grey;
+    position: relative;
+    left: 820px;
+    bottom: 162px;
+}
+
 /*datos personales*/
 section .containerdp1{
     height: 310px;
@@ -227,6 +274,17 @@ section .containerdp1{
     height: 100px;
     display: flex; 
     margin: 37px 38%;
+}
+/*index*/
+.containeri6{
+    height: 100px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
+    color: grey;
+    margin: 40px;
+    position: absolute;
+    bottom: 25px;
 }
 
 /*datospersonales*/
